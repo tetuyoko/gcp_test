@@ -5,7 +5,7 @@ resource "google_storage_bucket" "auto-expire" {
 }
 
 resource "google_storage_bucket" "sample" {
-  name          = "tytest--expiring-bucket"
+  name          = "tytest--myhomie-bucket"
   location      = "ASIA-NORTHEAST1"
   storage_class = "STANDARD"
 }
